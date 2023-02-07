@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra do Relógio</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" />
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <div class="left">
+                <div class="product-container">
+                    <div class="detail">
+                        <p class="brand">Redux</p>
+                        <h2 class="watchname">Analog Men's Watch</h2>
+                    </div>
+                    
+                    <div class="imgSlide">
+                        <img src="assets/imgs/1.png" alt="Foto do relógio" style="width: 100%;">
+                    </div>
+
+                    <div class="imgSlide">
+                        <img src="assets/imgs/2.png" alt="Foto do relógio" style="width: 100%;">
+                    </div>
+                    
+                    <div class="imgSlide">
+                        <img src="assets/imgs/3.png" alt="Foto do relógio" style="width: 100%;">
+                    </div>
+                    
+                    <!-- pontos de página -->
+                    <div class="dots">
+                        <a class="pagination" onclick="currentSlide(1)"></a>
+                        <a class="pagination" onclick="currentSlide(2)"></a>
+                        <a class="pagination" onclick="currentSlide(3)"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="checkout-container">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
